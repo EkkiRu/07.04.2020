@@ -13,10 +13,10 @@
  */
 class LessonPlan  extends Table{
     //put your code here
-    public $lesson_plan_id ='';
-    public $gruppa_id ='';
-    public $subject_id ='';
-    public $user_id ='';
+    public $lesson_plan_id =0;
+    public $gruppa_id =0;
+    public $subject_id =0;
+    public $user_id =0;
         public function validate(){
         return false;
     }

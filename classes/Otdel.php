@@ -13,8 +13,9 @@
  */
 class Otdel  extends Table{
     //put your code here
-    public $otdel_id ='';
+    public $otdel_id =0;
     public $name ='';
+    public $acive=0;
         public function validate(){
         return false;
     }

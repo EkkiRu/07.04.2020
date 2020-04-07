@@ -14,10 +14,10 @@
 class Schedule  extends Table{
     //put your code here
     public $schedule_id ='';
-    public $lesson_plan_id ='';
-    public $day_id ='';
-    public $lesson_num_id ='';
-    public $classroom_id ='';
+    public $lesson_plan_id =0;
+    public $day_id =0;
+    public $lesson_num_id =0;
+    public $classroom_id =0;
         public function validate(){
         return false;
     }

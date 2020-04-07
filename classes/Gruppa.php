@@ -13,9 +13,9 @@
  */
 class Gruppa  extends Table{
     //put your code here
-    public $gruppa_id ='';
+    public $gruppa_id =0;
     public $name ='';
-    public $special_id ='';
+    public $special_id =0;
     public $date_begin ='';
     public $date_end ='';
         public function validate(){

@@ -13,8 +13,9 @@
  */
 class Classroom  extends Table{
     //put your code here
-    public $classroom_id ='';
+    public $classroom_id =0;
     public $name ='';
+    public $active=0;
         public function validate(){
         return false;
     }

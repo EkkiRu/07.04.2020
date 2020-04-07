@@ -13,15 +13,16 @@
  */
 class User extends Table  {
     
-    public $user_id ='';
+    public $user_id =0;
     public $lastName ='';
     public $firstname ='';
     public $patronomic ='';
     public $login ='';
     public $pass ='';
-    public $gender_id ='';
+    public $gender_id =0;
     public $birthday ='';
-    public $role_id ='';
+    public $role_id =0;
+    public $active =0;
     //put your code here
     public function validate(){
         return false;
