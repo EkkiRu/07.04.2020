@@ -13,10 +13,10 @@
  */
 class Subject  extends Table{
     //put your code here
-    var $subject_id ='';
-    var $name ='';
-    var $otdel_id ='';
-    var $hours ='';
+    public $subject_id ='';
+    public $name ='';
+    public $otdel_id ='';
+    public $hours ='';
         public function validate(){
         return false;
     }

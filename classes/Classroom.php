@@ -13,8 +13,8 @@
  */
 class Classroom  extends Table{
     //put your code here
-    var $classroom_id ='';
-    var $name ='';
+    public $classroom_id ='';
+    public $name ='';
         public function validate(){
         return false;
     }

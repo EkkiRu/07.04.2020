@@ -13,9 +13,9 @@
  */
 class Student  extends Table {
     //put your code here
-    var $user_id ='';
-    var $gruppa_id ='';
-    var $num_zach ='';
+    public $user_id ='';
+    public $gruppa_id ='';
+    public $num_zach ='';
         public function validate(){
         return false;
     }

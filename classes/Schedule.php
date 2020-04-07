@@ -13,11 +13,11 @@
  */
 class Schedule  extends Table{
     //put your code here
-    var $schedule_id ='';
-    var $lesson_plan_id ='';
-    var $day_id ='';
-    var $lesson_num_id ='';
-    var $classroom_id ='';
+    public $schedule_id ='';
+    public $lesson_plan_id ='';
+    public $day_id ='';
+    public $lesson_num_id ='';
+    public $classroom_id ='';
         public function validate(){
         return false;
     }

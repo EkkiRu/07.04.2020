@@ -13,8 +13,8 @@
  */
 class Teacher extends Table {
     //put your code here
-    var $user_id ='';
-    var $otdel_id ='';
+    public $user_id ='';
+    public $otdel_id ='';
     
         public function validate(){
         return false;

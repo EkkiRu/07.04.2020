@@ -13,11 +13,11 @@
  */
 class Gruppa  extends Table{
     //put your code here
-    var $gruppa_id ='';
-    var $name ='';
-    var $special_id ='';
-    var $date_begin ='';
-    var $date_end ='';
+    public $gruppa_id ='';
+    public $name ='';
+    public $special_id ='';
+    public $date_begin ='';
+    public $date_end ='';
         public function validate(){
         return false;
     }

@@ -13,9 +13,9 @@
  */
 class Special extends Table {
     //put your code here
-    var $special_id ='';
-    var $name ='';
-    var $otdel_id ='';
+    public $special_id ='';
+    public $name ='';
+    public $otdel_id ='';
         public function validate(){
         return false;
     }
