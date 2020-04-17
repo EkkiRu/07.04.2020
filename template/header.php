@@ -179,7 +179,7 @@ desired effect
               <!-- The user image in the navbar-->
               <img src="dist/img/user2-160x160.jpg" class="user-image" alt="User Image">
               <!-- hidden-xs hides the username on small devices so only the image appears. -->
-              <span class="hidden-xs">Alexander Pierce</span>
+              <span class="hidden-xs">Здравствуйте, <?=$_SESSION['fio'];?><?</span>
             </a>
             <ul class="dropdown-menu">
               <!-- The user image in the menu -->
@@ -208,6 +208,7 @@ desired effect
               </li>
               <!-- Menu Footer-->
               <li class="user-footer">
+                   <?php require_once 'template/menu.php'; ?>
                 <div class="pull-left">
                   <a href="#" class="btn btn-default btn-flat">Profile</a>
                 </div>
@@ -230,7 +231,7 @@ desired effect
 
     <!-- sidebar: style can be found in sidebar.less -->
     <section class="sidebar">
-
+ <?php require_once 'template/menu.php'; ?>
       <!-- Sidebar user panel (optional) -->
       <div class="user-panel">
         <div class="pull-left image">
