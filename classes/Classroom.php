@@ -17,6 +17,10 @@ class Classroom  extends Table{
     public $name ='';
     public $active=0;
         public function validate(){
+                    if (!empty($this->name) &&
+            !empty($this->active)) {
+            return true;
+        }
         return false;
     }
 }
